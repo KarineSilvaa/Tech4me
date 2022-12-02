@@ -82,5 +82,23 @@
                 </tr>
             </tbody>
         </table>
-    </body>
+        <h1>Formulário</h1>
+        <p><strong>Preencha o formulário abaixo para se inscrever no curso de Programador-Trainne da Tech4me</strong></p>
+       <form action="http://localhost:3003/alunos" method="get">
+        <div>
+            <input type="text" name="nome" placeholder="Nome">
+            <input type="number" name="idade" placeholder="Idade">
+        </div>
+        <div>
+            <label>Feminino</label>
+                <input type="radio" name="tipo" checked value="fem">
+                <label>Masculino</label>
+                <input type="radio" name="tipo" value="masc">
+        </div>
+        <div>
+            <textarea name="descricao" id="" cols="30" rows="5">Fale sobre você.</textarea>
+        </div>
+        <button type="submit">Matricula</button>
+     </form>
+     </body>
 </html>
