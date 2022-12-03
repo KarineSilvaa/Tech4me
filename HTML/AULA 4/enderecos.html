@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Preenchendo Endereços</title>
+    </head>
+    <body>
+        <h2>Preenchendo Endereços</h2>
+        <form action="http://localhost:3003/alunos" method="get">
+            <div>
+                <input type="text" name="nome" placeholder="Nome">
+                <input type="password" name="senha" placeholder="Senha">
+            </div>
+             <div>
+                    <input type="text" name="cpf" placeholder="CPF">
+            </div>
+            <div>
+            
+                <input type="text" name="rua" placeholder="Rua">
+                <input type="text" name="numero" placeholder="N°">
+                <br>
+                <input type="text" name="bairro" placeholder="Bairro">
+                <input type="text" name="cidade" placeholder="Cidade">
+            </div>
+            <div>
+                <select name="estados" required>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="ba">Bahia</option>
+                    <option value="sp">São Paulo</option>
+                    <option value="mg">Minas Gerais</option>
+                    <option value="es">Espírito Santo</option>
+                    <option value="ms">Mato Grosso do Sul</option>
+                    <option value="ap">Amapá</option>
+                    </select>
+            </div>
+            <br/>
+            <div>
+                <label>O endereço de entrega é o mesmo de cobrança?</label>
+                <label>Sim</label>
+                <input type="checkbox" name="tipo" checked value="sim">
+                <label>Não</label>
+                <input type="checkbox" name="tipo" value="nao">
+            </div>
+            <br/>
+            <button type="submit">Incluir o endereço</button>
+        </form>
+    </body>
+</html>
