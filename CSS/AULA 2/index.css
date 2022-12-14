@@ -1,0 +1,25 @@
+table {
+    width: 300px;
+}
+
+.vermelho {
+ background-color: red;
+}
+.laranja {
+    background-color: orange;
+}
+.amarelo {
+background-color: yellow;
+}
+.verde {
+    background-color: green;
+}
+.azul {
+    background-color: blue;
+}
+.azul-escuro {
+    background-color: rgb(0, 0, 59);
+}
+.violeta {
+    background-color: blueviolet;
+}
