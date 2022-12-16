@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixa</title>
+    <style>
+.caixa {
+    background-color: aquamarine;
+    width: 274px;
+    height: 180px;
+    margin: 20px;
+}
+.cima{
+    margin: 20px 50px;
+    margin-left: 40px;
+    border: 1px solid black;
+    padding: 5px;
+    padding-top: 4px;
+}
+
+.baixo{
+    border: 1px solid chocolate;
+    border-top: 20px solid chocolate;
+}
+
+img:first-child{
+    display: none;
+}
+
+.baixo{
+    float: none;
+}
+    </style>
+</head>
+<body>
+    <div class="caixa cima">Caixa 1</div>
+    <div class="caixa baixo">Conteúdo</div>
+    <div style="background-color: aqua; display: inline;">texto</div>
+    <div style="background-color: aqua; display: inline;">texto</div>
+</body>
+</html>
