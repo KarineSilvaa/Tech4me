@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posição</title>
+
+    <style>
+        .caixa{
+            width: 80px;
+            height: 80px;
+            background-color: blueviolet;
+            margin: 10px;
+        }
+        .move{
+            position: static;
+        }
+        .fixa{
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            border-radius: 50px;
+        }
+        .gruda{
+            background-color: red;
+            position: sticky;
+            top: 10px;
+            left: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="caixa"></div>
+    <div class="caixa"></div>
+    <div class="caixa gruda"></div>
+    <div style="background-color: moccasin;">
+        <div class="caixa move" style="background-color: aquamarine;"></div>
+        <div class="caixa" style="background-color: royalblue;"></div>
+    </div>
+    <div class="caixa" style="background-color: yellowgreen;"></div>
+
+    <div class="caixa fixa" style="background-color: green;"></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dicta possimus in accusamus rerum amet ratione! Maxime tempore eligendi animi quod laboriosam, sunt deleniti corrupti? A atque quod earum voluptatibus?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dicta possimus in accusamus rerum amet ratione! Maxime tempore eligendi animi quod laboriosam, sunt deleniti corrupti? A atque quod earum voluptatibus?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dicta possimus in accusamus rerum amet ratione! Maxime tempore eligendi animi quod laboriosam, sunt deleniti corrupti? A atque quod earum voluptatibus?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dicta possimus in accusamus rerum amet ratione! Maxime tempore eligendi animi quod laboriosam, sunt deleniti corrupti? A atque quod earum voluptatibus?</p>
+    
+</body>
+</html>
