@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: center; 
+}
+
+
+.caixa{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border: 5px solid whitesmoke; 
+    border-right: 5px solid rgb(143, 0, 255);
+    border-radius: 50%;
+
+    /*animação*/
+    animation: girar;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-direction: forwards;
+    animation-play-state: running;
+}
+
+@keyframes girar {
+    from{
+       transform: rotate(0);
+    }
+    to{
+        transform: rotate(1turn);
+    }
+}
