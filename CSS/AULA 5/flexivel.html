@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexível</title>
+
+    <style>
+        .recipiente{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            height: 200px;
+            justify-content: space-around;
+            align-items: stretch;
+            align-content: space-between;
+            background-color: aquamarine;
+            padding: 5px;
+        }
+        .item{
+            background-color: lightsalmon;
+            width: 100px;
+        }
+        .nova{
+            display: flex;
+            height: 150px;
+            background-color: aqua;
+            margin-top: 10px;
+            padding: 2px;
+        }
+        .dois{
+            flex-grow: 1;
+        }
+        .itemg{
+            background-color: yellowgreen;
+            width: 80px;
+            margin: 2px;
+        }
+        .fator1{
+            flex-grow: 1;
+        }
+        .fator2{
+            flex-grow: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="recipiente">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+    </div>
+
+    <div class="nova">
+        <div class="itemg">1</div>
+        <div class="itemg fator2">2</div>
+        <div class="itemg fator1">4</div>
+        <div class="itemg">5</div>
+    </div>
+</body>
+</html>
