@@ -1,0 +1,12 @@
+.recipiente{
+    background-color: gray;
+    display: flex;
+}
+.recipiente > div{
+    background-color: whitesmoke;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 10px;
+    height: 90px;
+    align-items: center;
+}
