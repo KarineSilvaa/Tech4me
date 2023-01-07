@@ -1,0 +1,58 @@
+body{
+    background-color: pink;
+} 
+#detalhe{
+    margin-left: 500px;
+    border-top: 100px;
+    bottom: 240px;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,p{
+    top: 200px;
+}
+img{
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 50px;
+    height: 450px;
+}
+.botão{
+    background-color:plum ;
+    padding: 7px;
+    width: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: botão 4s infinite;
+    cursor: pointer;
+}
+@keyframes botão{
+    5%,
+    50%{
+        transform: scale(1);
+    }
+    10%{
+        transform: scale(1) ;
+    }
+    15% {
+        transform: scale(1);
+    }
+    20% {
+        transform: scale(1) rotate(-5deg);
+    }
+
+    25% {
+        transform: scale(1) rotate(5deg);
+    }
+
+    30% {
+        transform: scale(1) rotate(-3deg);
+    }
+
+    35% {
+        transform: scale(1) rotate(2deg);
+    }
+
+    40% {
+         transform: scale(1) rotate(0);
+    }
+}

@@ -1,0 +1,46 @@
+body{
+    background-color: whitesmoke;
+}
+.logo{
+font-family: Georgia, 'Times New Roman', Times, serif; 
+color: white;
+text-shadow: black 0.1em 0.1em 0.2em;
+background-color: palevioletred;
+}
+.c{
+color: blueviolet;
+text-shadow: black 0.1em 0.1em 0.2em;  
+}
+.conteiner{
+display: flex;
+flex-wrap: nowrap;
+width: 400px;
+}
+.item{
+width: 500%;
+margin-left: 10px;
+}
+p{
+text-align: center;
+font-weight: 100;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#ver{
+    color: black;
+}
+.formulario{
+    bottom: 50px;
+    margin-left: 500px;
+}
+.texto{
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    bottom: 5px;;
+}
+/* botão */
+.botão{
+background-color: pink;
+border-radius: 10px;
+}
