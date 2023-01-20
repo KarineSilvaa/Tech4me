@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "bulma": "^0.9.4",
+    "prompt-sync": "^4.2.0",
     "serve": "^13.0.4"
   }
 }
