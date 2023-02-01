@@ -1,0 +1,29 @@
+Exercício de tipos de dados
+var vendedores
+consog.log 
+var idade 
+
+Exercício de Declaração de variáveis
+Primeiro de forma conceitual
+Depois em JavaScript
+
+1 Quantidade de vendedores da loja
+2 Nome da rua, com número e complemento
+3 Preço do etanol comum
+4 Estado de iluminação de uma lâmpada
+5 CEP do endereço, com hífen
+6 Mostrador com um dígito dentro do elevador, indicando o andar do prédio onde ele está passando
+7 Led que indica o pressionamento do botão do elevador
+8 Data de aniversário do professor
+9 Peso do prato na balança do restaurante
+10 Número de bois no curral da fazenda
+11 Dia completo da páscoa nesse ano
+12 Quantidade de laranjas na caixa
+13 Uma vogal minúscula
+14 Título de um livro
+15 Limite do cartão de crédito
+16 Horário de transmissão do jogo
+17 Altura de um prédio
+18 Páginas do caderno
+19 Sala de reunião está disponível (ou ocupada)
+20 Alternativas do enunciado da questão de múltipla escolha
