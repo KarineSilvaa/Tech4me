@@ -1,0 +1,9 @@
+#relogio{
+    font-family: monospace;
+    font-size: 24pt;
+    background-color: black;
+    color: red;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 50px;
+}
