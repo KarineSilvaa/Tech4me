@@ -1,8 +1,8 @@
 
 class Carro {
-    constructor () {
-        this.montadora = "VW";
-        this.modelo = "Fusca";
+    constructor (montadora, modelo) {
+        this.montadora = montadora;
+        this.modelo = modelo;
     }
     
     obterNome() {
@@ -10,6 +10,7 @@ class Carro {
     }
 }
 
-let carro = new Carro();
+let carro = new Carro("Fiat", "FastBack");
+ carro = new Carro("Fiat", "Uno");
 
 console.log(carro);
