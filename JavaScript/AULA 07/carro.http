@@ -1,0 +1,4 @@
+POST https://8711-138-185-96-36.ngrok.io/carros
+Content-Type: application/json
+
+{"aluno": "Karine", "montadora": "Audi", "modelo": "Audi R8"}
