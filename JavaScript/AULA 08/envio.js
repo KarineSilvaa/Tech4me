@@ -7,7 +7,7 @@ const config = {
       "Content-Type": "Application/json",
   }, 
   body: "JSON virá aqui1",
-}
+};
 
 resposta.innerText = "Pressione cadastrar";
 
