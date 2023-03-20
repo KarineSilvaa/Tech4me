@@ -1,10 +1,10 @@
 const lista = [
 
     {
-        aluno: "Karine",
-        montadora: "BMW",
-        modelo: "X1",
-        cor: "azul"
+    aluno: "Karine",
+    montadora: "BMW",
+    modelo: "X1",
+    cor: "azul"
     },
     {
     aluno: "christian",
