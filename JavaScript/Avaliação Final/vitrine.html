@@ -29,10 +29,10 @@
         <form>
             E-mail: <input type="email" name="e-mail" placeholder= "Digite seu e-mail aqui" id="email">
         </form>
-        <span>Aceita os termos de uso??</span>
-        <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
-        <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
-        <button id="clique" onclick="alert('E-mail cadastrado com sucesso!')">Enviar</button>
+        <label for="terms">Aceitar termos de uso:</label>
+        <input type="checkbox" id="terms">
+        <p id="error-msg" style="display: none; color: red;">Você precisa aceitar os termos de uso</p>
+        <button id="clique" onclick="validarEmail()">Enviar</button>
     </div>
     <script src="vitrine.js"></script>
 </body>
