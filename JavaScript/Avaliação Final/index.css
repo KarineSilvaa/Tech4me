@@ -60,3 +60,24 @@ img{
   );
   box-shadow: 0 5px 15px rgba(242, 97, 103, 0.4);
  }
+
+#texto{
+  font-family: 'Passion One', cursive;
+  color: white; 
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-size: 20px;
+  margin-left: 770px;
+  border-top: 100px;
+  bottom: 130px;
+  position: fixed;
+}
+
+#crono{
+  font-size: 25px;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  margin-left: 66%;
+  bottom: 110px;
+  position: fixed;
+  border-top: 100px;
+}

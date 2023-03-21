@@ -1,0 +1,6 @@
+POST https://62d0e2051cc14f8c088fc83d.mockapi.io/produto
+Content-Type: application/json
+
+{"aluno": "karine" ,"imagem": "https://www.finistore.com.br/dw/image/v2/BHBX_PRD/on/demandware.static/-/Sites-fini-master-catalog/default/dwd11f7e5f/dentaduras_500g_1.jpg?sw=1000&sh=1000&sm=fit","titulo": "dentaduras", "descricao":"O clássico dos clássicos! Dentaduras é o amor incondicional, Não tem o que dizer, só sentir. No formato de dentadura e sabor de morango e framboesa, nas cores rosa e branca." }
+
+{"aluno": "karine", "imagem": "https://www.finistore.com.br/dw/image/v2/BHBX_PRD/on/demandware.static/-/Sites-fini-master-catalog/default/dwd11f7e5f/dentaduras_500g_1.jpg?sw=1000&sh=1000&sm=fit","titulo": "beijos morango", "descricao": "O clássico dos clássicos! Dentaduras é o amor incondicional, Não tem o que dizer, só sentir. No formato de dentadura e sabor de morango e framboesa, nas cores rosa e branca."}

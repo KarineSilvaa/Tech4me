@@ -1,6 +1,5 @@
-// const time = document.getElementById("crono");
-// time.innerHTML = `As ofertas exclusivas terminam em: ${horas}:${minutos}:${segundos}`;
-// document.body.appendChild(time);
+let texto = document.getElementById('texto');
+texto.innerHTML = '<h2> As ofertas exclusivas terminam em: </h2>'
 
 // Cronômetro
 function cronometro()
