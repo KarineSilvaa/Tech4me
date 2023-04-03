@@ -7,12 +7,12 @@ class Paciente {
   }
 
   calcularIMC() {
-    let imc = this.peso / (this.altura ** 2);
+    var imc = this.peso / (this.altura ** 2);
     return imc.toFixed(2);
   }
 
   verificarCategoria() {
-    let imc = this.calcularIMC();
+    var imc = this.calcularIMC();
     if (imc < 18.5) {
       return "Abaixo do peso";
     } else if (imc >= 18.5 && imc < 25) {
@@ -25,7 +25,7 @@ class Paciente {
   }
 }
 
-let pacientes = [
+var pacientes = [
   new Paciente("Darth Vader", 45, 92, 1.87),
   new Paciente("Mestre Yoda", 900, 70, 0.66),
   new Paciente("Luke Skywalker", 25, 75, 1.8),
@@ -34,40 +34,40 @@ let pacientes = [
 ];
 
 // Relatório por categoria
-let categorias = {
+var categorias = {
   "Abaixo do peso": [],
   "Peso normal": [],
   Sobrepeso: [],
   Obesidade: [],
 };
 
-for (let paciente of pacientes) {
-  let categoria = paciente.verificarCategoria();
+for (var paciente of pacientes) {
+  var categoria = paciente.verificarCategoria();
   categorias[categoria].push(paciente);
 }
 
 console.log("Relatório por categoria:");
-for (let categoria in categorias) {
+for (var categoria in categorias) {
   console.log(`${categoria}:`);
-  for (let paciente of categorias[categoria]) {
+  for (var paciente of categorias[categoria]) {
     console.log(` - ${paciente.nome} (${paciente.idade} anos) - IMC: ${paciente.calcularIMC()}`);
   }
 }
 
 // Total de pacientes por categoria
 console.log("\nTotal de pacientes por categoria:");
-for (let categoria in categorias) {
+for (var categoria in categorias) {
   console.log(`${categoria}: ${categorias[categoria].length}`);
 }
 
 // Quantidade de pacientes com sobrepeso ou obesidade
-let pacientesSobrepesoObesidade = categorias.Sobrepeso.concat(categorias.Obesidade);
+var pacientesSobrepesoObesidade = categorias.Sobrepeso.concat(categorias.Obesidade);
 console.log(`\nTotal de pacientes com sobrepeso ou obesidade: ${pacientesSobrepesoObesidade.length}`);
 console.log("Sobrepeso:");
-for (let paciente of categorias.Sobrepeso) {
+for (var paciente of categorias.Sobrepeso) {
   console.log(` - ${paciente.nome}`);
 }
 console.log("Obesidade:");
-for (let paciente of categorias.Obesidade) {
+for (var paciente of categorias.Obesidade) {
   console.log(` - ${paciente.nome}`);
 }
