@@ -1,0 +1,4 @@
+POST https://b571-189-113-68-7.ngrok-free.app/filmes
+Content-Type: application/json
+
+{"pessoa": "Karine", "titulo": "Minha mãe é uma peça", "genero": "Comédia", "id": "10" }
