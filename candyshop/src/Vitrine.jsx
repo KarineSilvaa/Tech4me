@@ -1,6 +1,6 @@
 import React from "react";
 
-function Cartao(props) {
+function Vitrine(props) {
     const { produto } = props;
 
     return (
@@ -11,4 +11,4 @@ function Cartao(props) {
     );
 }
 
-export default Cartao;
+export default Vitrine;
