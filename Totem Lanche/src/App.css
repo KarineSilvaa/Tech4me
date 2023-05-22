@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  
+}
+
+.logomarca{
+  font-family: 'Arial';
+  color: black;
+  font-size: 60px;
+}
+
+.imagem{
+  left: 100px;
+}
+
+body{
+  background-color: white;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import './sobre.css'
 
 function Vitrine(props) {
     const { produto } = props;
